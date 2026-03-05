@@ -1,0 +1,3 @@
+alice:1001:admin
+bob:1002:user
+charlie:1003:devops

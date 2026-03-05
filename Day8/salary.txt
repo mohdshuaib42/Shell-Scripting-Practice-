@@ -1,0 +1,4 @@
+alice 40000
+bob 70000
+charlie 55000
+david 30000

@@ -1,0 +1,3 @@
+alice 25 engineer
+bob 30 manager
+charlie 28 devops
