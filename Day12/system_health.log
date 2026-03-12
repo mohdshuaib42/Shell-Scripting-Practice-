@@ -1,0 +1,40 @@
+===== System Health Report =====
+Date: Thursday 12 March 2026 03:05:46 PM IST
+
+System Uptime:
+ 15:05:46 up 51 min,  2 users,  load average: 0.14, 0.07, 0.02
+
+Disk Usage:
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs             4.0M     0  4.0M   0% /dev
+tmpfs                797M     0  797M   0% /dev/shm
+tmpfs                319M  5.9M  313M   2% /run
+efivarfs             128K   96K   28K  78% /sys/firmware/efi/efivars
+/dev/mapper/rl-root   70G  5.1G   65G   8% /
+/dev/sda2            960M  545M  416M  57% /boot
+/dev/mapper/rl-home  391G  2.8G  388G   1% /home
+/dev/sda1            599M  7.1M  592M   2% /boot/efi
+tmpfs                160M  4.0K  160M   1% /run/user/1003
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       712Mi       646Mi       5.0Mi       395Mi       879Mi
+Swap:          3.9Gi          0B       3.9Gi
+
+Logged in Users:
+mshuaib  tty1         2026-03-12 14:17
+mshuaib  pts/0        2026-03-12 14:27 (10.184.30.243)
+
+CPU Load:
+ 15:05:46 up 51 min,  2 users,  load average: 0.14, 0.07, 0.02
+
+Top 5 running process.
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  1.0 174804 17636 ?        Ss   14:14   0:04 /usr/lib/systemd/systemd rhgb --switched-root --system --deserialize 31
+root           2  0.0  0.0      0     0 ?        S    14:14   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    14:14   0:00 [pool_workqueue_]
+root           4  0.0  0.0      0     0 ?        I<   14:14   0:00 [kworker/R-rcu_g]
+
+Show disk usage only for root filesystem.
+Filesystem           Size  Used Avail Use% Mounted on
+/dev/mapper/rl-root   70G  5.1G   65G   8% /
