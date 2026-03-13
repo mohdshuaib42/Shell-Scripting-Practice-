@@ -1,0 +1,4 @@
+INFO Request from 192.168.1.10
+ERROR Failed login from 10.0.0.5
+INFO Request from 192.168.1.10
+WARNING suspicious activity from 172.16.0.2
